@@ -12,13 +12,13 @@ class CalcController extends Controller
         switch ($calc) {
             case 'addition':
                 $result =  $num1 + $num2;
-            break;
+                break;
             case 'subtraction':
                 $result = $num1 - $num2;
-            break;
+                break;
             case 'multiplication':
                 $result =  $num1 * $num2;
-            break;
+                break;
             case 'division':
                 $result = $num1 / $num2;
         }
