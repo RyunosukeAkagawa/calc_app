@@ -8,6 +8,8 @@
 </head>
 <body>
     <h1>計算アプリ</h1>
-    <p>{{ $num1 }},{{ $num2 }},{{ $calc }}</p>
+    <h2>
+        {{ $result }}
+    </h2>
 </body>
 </html>
